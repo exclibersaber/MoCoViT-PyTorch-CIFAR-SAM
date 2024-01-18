@@ -1,0 +1,6 @@
+argparse
+distutils
+torch
+torchvision
+PIL
+scikit-optimize
