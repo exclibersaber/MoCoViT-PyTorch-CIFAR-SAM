@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 
 ## 数据集下载
-本次实验使用torchvision包中的datasets模块来下载CIFAR100数据集，运行训练代train.py即可下载到```./data```目录下
+本次实验使用torchvision包中的datasets模块来下载CIFAR100数据集，运行train.py即可下载到```./data```目录下
 
 ## 运行方式
 首先通过```cd```命令进入项目根目录，然后运行训练和测试脚本
