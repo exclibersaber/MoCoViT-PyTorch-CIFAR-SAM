@@ -45,8 +45,8 @@ usage: test.py [-h] [--imagenet_path IMAGENET_PATH] [--gpu GPU] [--epoch EPOCH] 
                [--verbose {True,False}]
 
 ```
-**注意：** 请你根据具体情况修改以下部分
-```model.load_state_dict(torch.load('checkpoints/epoch.pt'))  # 模型文件路径，保存在checkpoints目录下```
+**注意：** 请你根据具体情况修改以下部分  
+```model.load_state_dict(torch.load('checkpoints/epoch.pt'))  # 模型文件路径，保存在checkpoints目录下```  
 ```image_path = 'image.jpeg'  # 要分类的图像路径```
 
 ## 实验结果
